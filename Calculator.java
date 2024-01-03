@@ -60,9 +60,12 @@ public static void main(String[] args) {
     System.out.println("Enter a second whole number between 1 and 250!"); 
     j = sc.nextInt(); 
   }
+  
   System.out.println("Entered number is " + j); 
   System.out.println("below you find the sum and products of " + i + " and " + j + "!");
+  
   testCal.Add(i, j); 
   testCal.Multiply(i, j);
-  }
+  
+}
 }
