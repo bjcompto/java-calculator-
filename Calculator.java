@@ -1,3 +1,4 @@
+//scans for user input 
 import java.util.Scanner;
 
 public class Calculator {
